@@ -1,12 +1,12 @@
 {
-  "home": ".",
+  "homepage": "https://hussaindev-mdu.github.io/playfix/",
   "name": "playfix-modern-site",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp dist/index.html dist/404.html",
     "preview": "vite preview",
     "lint": "eslint . --ext js,jsx --max-warnings 0",
     "predeploy": "GITHUB_PAGES=true npm run build",

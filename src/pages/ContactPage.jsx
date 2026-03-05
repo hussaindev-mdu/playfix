@@ -1,4 +1,5 @@
 import LeadFormSection from '../sections/LeadFormSection';
+import { assetPath } from '../utils/assetPath';
 
 const locations = [
   {
@@ -58,7 +59,7 @@ const ContactPage = () => {
       <section className="px-5 pb-6 sm:px-8">
         <div className="mx-auto grid max-w-6xl gap-5 md:grid-cols-2">
           <video
-            src="/media/playfix-reel.mp4"
+            src={assetPath('media/playfix-reel.mp4')}
             className="h-72 w-full rounded-3xl object-cover shadow-soft"
             autoPlay
             muted
@@ -67,7 +68,7 @@ const ContactPage = () => {
             preload="metadata"
           />
           <video
-            src="/media/playfix-reel-2.mp4"
+            src={assetPath('media/playfix-reel-2.mp4')}
             className="h-72 w-full rounded-3xl object-cover shadow-soft"
             autoPlay
             muted

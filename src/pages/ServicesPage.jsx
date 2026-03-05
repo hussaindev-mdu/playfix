@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
 import SectionTitle from '../components/SectionTitle';
 import { services, highlights } from '../data/siteContent';
+import { assetPath } from '../utils/assetPath';
 
-const serviceVideos = ['/media/playfix-reel.mp4', '/media/playfix-reel-2.mp4'];
+const serviceVideos = [assetPath('media/playfix-reel.mp4'), assetPath('media/playfix-reel-2.mp4')];
 
 const ServicesPage = () => {
   return (

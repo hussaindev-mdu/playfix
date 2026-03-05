@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
+import { assetPath } from '../utils/assetPath';
 
 const imageSlides = [
-  { src: '/media/playfix-hero-1.jpg', alt: 'Playfix tailoring style one' },
-  { src: '/media/playfix-hero-2.jpg', alt: 'Playfix tailoring style two' },
-  { src: '/media/playfix-img-1.jpg', alt: 'Playfix tailoring studio image one' },
-  { src: '/media/playfix-img-2.jpg', alt: 'Playfix tailoring studio image two' }
+  { src: assetPath('media/playfix-hero-1.jpg'), alt: 'Playfix tailoring style one' },
+  { src: assetPath('media/playfix-hero-2.jpg'), alt: 'Playfix tailoring style two' },
+  { src: assetPath('media/playfix-img-1.jpg'), alt: 'Playfix tailoring studio image one' },
+  { src: assetPath('media/playfix-img-2.jpg'), alt: 'Playfix tailoring studio image two' }
 ];
 
 const TailoringGallerySection = () => {

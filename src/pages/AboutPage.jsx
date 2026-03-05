@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { assetPath } from '../utils/assetPath';
 
 const milestones = [
   { value: '50+', label: 'Years of Experience' },
@@ -21,7 +22,7 @@ const AboutPage = () => {
           </div>
           <div className="overflow-hidden rounded-[1.8rem] shadow-soft">
             <img
-              src="/media/playfix-img-3.jpg"
+              src={assetPath('media/playfix-img-3.jpg')}
               alt="Tailoring craftsmanship at Playfix"
               className="h-80 w-full object-cover"
             />
@@ -43,7 +44,11 @@ const AboutPage = () => {
       <section className="px-5 py-16 sm:px-8 sm:py-20">
         <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-[1.1fr_1fr] md:items-center">
           <div className="overflow-hidden rounded-[1.8rem] shadow-soft">
-            <img src="/media/playfix-img-1.jpg" alt="Playfix tailoring studio" className="h-80 w-full object-cover" />
+            <img
+              src={assetPath('media/playfix-img-1.jpg')}
+              alt="Playfix tailoring studio"
+              className="h-80 w-full object-cover"
+            />
           </div>
           <div>
             <h2 className="font-heading text-3xl text-ink sm:text-4xl">How Playfix Began</h2>

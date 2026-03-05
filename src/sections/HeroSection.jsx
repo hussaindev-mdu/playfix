@@ -1,4 +1,6 @@
-const heroImages = ['/media/playfix-hero-1.jpg', '/media/playfix-hero-2.jpg'];
+import { assetPath } from '../utils/assetPath';
+
+const heroImages = [assetPath('media/playfix-hero-1.jpg'), assetPath('media/playfix-hero-2.jpg')];
 
 const HeroSection = () => {
   return (
@@ -9,7 +11,7 @@ const HeroSection = () => {
       <div className="mx-auto grid max-w-6xl items-center gap-10 md:grid-cols-2">
         <div className="animate-rise">
           <p className="inline-flex rounded-full border border-ink/35 px-4 py-1 text-xs font-semibold uppercase tracking-[0.25em] text-ink">
-            Since 1970s
+            Since 1976's
           </p>
           <h1 className="mt-6 font-heading text-4xl leading-tight text-ink sm:text-6xl">
             Custom Tailoring That Fits Your Story.

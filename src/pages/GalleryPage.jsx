@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react';
+import { assetPath } from '../utils/assetPath';
 
 const sliderImages = [
-  { src: '/assets/imageOne.webp', alt: 'Playfix gallery image 1' },
-  { src: '/assets/imageTwo.webp', alt: 'Playfix gallery image 2' },
-  { src: '/assets/imageThree.gif', alt: 'Playfix gallery image 3' },
-  { src: '/assets/imageFour.gif', alt: 'Playfix gallery image 4' },
-  { src: '/assets/imageFive.webp', alt: 'Playfix gallery image 5' }
+  { src: assetPath('assets/imageOne.webp'), alt: 'Playfix gallery image 1' },
+  { src: assetPath('assets/imageTwo.webp'), alt: 'Playfix gallery image 2' },
+  { src: assetPath('assets/imageThree.gif'), alt: 'Playfix gallery image 3' },
+  { src: assetPath('assets/imageFour.gif'), alt: 'Playfix gallery image 4' },
+  { src: assetPath('assets/imageFive.webp'), alt: 'Playfix gallery image 5' }
 ];
 
 const GalleryPage = () => {
