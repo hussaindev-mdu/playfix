@@ -1,0 +1,9 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="900" fill="#F8EFE6"/>
+  <circle cx="450" cy="450" r="300" fill="#FFF8F1"/>
+  <path d="M220 510C280 430 360 390 450 390C540 390 620 430 680 510" stroke="#1A2A2F" stroke-width="22" stroke-linecap="round"/>
+  <path d="M300 560H600" stroke="#B06F39" stroke-width="30" stroke-linecap="round"/>
+  <rect x="250" y="545" width="42" height="30" fill="#1A2A2F"/>
+  <rect x="608" y="545" width="42" height="30" fill="#1A2A2F"/>
+  <text x="450" y="740" text-anchor="middle" fill="#1A2A2F" font-size="42" font-family="Georgia, serif">MEASUREMENT</text>
+</svg>
