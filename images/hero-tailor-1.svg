@@ -1,0 +1,16 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="900" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9E9D8"/>
+      <stop offset="1" stop-color="#E7C9AA"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg1)"/>
+  <rect x="120" y="120" width="660" height="960" rx="40" fill="#FFF7EE"/>
+  <path d="M250 370C250 308 300 258 362 258H538C600 258 650 308 650 370V826H250V370Z" fill="#1A2A2F"/>
+  <path d="M330 258C330 220 361 189 399 189H501C539 189 570 220 570 258V301H330V258Z" fill="#B06F39"/>
+  <circle cx="450" cy="540" r="20" fill="#F4E9DC"/>
+  <circle cx="450" cy="620" r="20" fill="#F4E9DC"/>
+  <circle cx="450" cy="700" r="20" fill="#F4E9DC"/>
+  <text x="450" y="1010" text-anchor="middle" fill="#1A2A2F" font-size="40" font-family="Georgia, serif">PLAYFIX TAILORING</text>
+</svg>

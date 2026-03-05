@@ -1,0 +1,15 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="900" y1="0" x2="0" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7D8CB"/>
+      <stop offset="1" stop-color="#FDF6EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg2)"/>
+  <rect x="130" y="150" width="640" height="900" rx="34" fill="#FFFFFF"/>
+  <path d="M210 370L320 280L450 360L580 280L690 370" stroke="#B06F39" stroke-width="24" stroke-linecap="round"/>
+  <path d="M250 410C250 360 290 320 340 320H560C610 320 650 360 650 410V860H250V410Z" fill="#0B1316"/>
+  <path d="M340 320L450 430L560 320" stroke="#F4E9DC" stroke-width="18" stroke-linecap="round"/>
+  <rect x="370" y="530" width="160" height="36" rx="18" fill="#F4E9DC"/>
+  <text x="450" y="1000" text-anchor="middle" fill="#0B1316" font-size="36" font-family="Georgia, serif">MODERN FIT</text>
+</svg>
