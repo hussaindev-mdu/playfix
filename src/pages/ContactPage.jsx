@@ -9,35 +9,32 @@ const locations = [
     address:
       'Shop No: 4, Corporation Complex, Melur Main Rd, near Smart Fruit Market',
     phone: '098421 44688',
-    hours: 'Closed · Opens 10:00 am',
+    hours: 'Opens 10:00 am',
     mapsUrl:
       'https://www.google.com/maps/search/?api=1&query=Shop+No+4+Corporation+Complex+Melur+Main+Rd+near+Smart+Fruit+Market'
   },
   {
     name: 'Play Fix Tailors',
-    rating: '4.8 (43)',
     type: 'Tailor',
     address: '23a/b, N Avani Moola St',
     phone: '0452 437 3680',
-    hours: 'Closed · Opens 10:00 am · On-site services',
+    hours: 'Opens 10:00 am · On-site services',
     mapsUrl: 'https://www.google.com/maps/search/?api=1&query=23a%2Fb+N+Avani+Moola+St'
   },
   {
     name: 'Play Fix Tailoring',
-    rating: '5.0 (4)',
     type: 'Clothing store',
     address: '138, South Masi St, (sait pallivasal 1st floor)',
     phone: '',
-    hours: 'Closed · Opens 10:30 am',
+    hours: 'Opens 10:30 am',
     mapsUrl: 'https://www.google.com/maps/search/?api=1&query=138+South+Masi+St+sait+pallivasal+1st+floor'
   },
   {
     name: 'Play Fix Designer Studio',
-    rating: '5.0 (4)',
     type: 'Clothing store',
     address: '49, Bypass Rd',
     phone: '+91 96005 97729',
-    hours: '',
+    hours: 'Opens 10:00 am',
     mapsUrl: 'https://www.google.com/maps/search/?api=1&query=49+Bypass+Rd'
   }
 ];
