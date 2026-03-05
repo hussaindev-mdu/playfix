@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="mx-auto flex max-w-6xl flex-col gap-3 text-sm text-graphite/80 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-3">
           <img
-            src={assetPath('media/playfix-logo.jpeg')}
+            src={assetPath('assets/playfixlogo.jpeg')}
             alt="Playfix logo"
             className="h-8 w-8 rounded-lg object-cover"
           />

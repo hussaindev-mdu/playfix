@@ -4,7 +4,6 @@ import { assetPath } from '../utils/assetPath';
 const locations = [
   {
     name: 'Play Fix Tailoring',
-    rating: '4.4 (30)',
     type: 'Clothing store',
     address:
       'Shop No: 4, Corporation Complex, Melur Main Rd, near Smart Fruit Market',

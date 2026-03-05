@@ -27,7 +27,7 @@ const Navbar = () => {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
         <Link to="/" className="flex items-center gap-3">
           <img
-            src={assetPath('media/playfix-logo.jpeg')}
+            src={assetPath('assets/playfixlogo.jpeg')}
             alt="Playfix logo"
             className="h-10 w-10 rounded-xl object-cover shadow-soft transition duration-500 hover:scale-110"
           />
