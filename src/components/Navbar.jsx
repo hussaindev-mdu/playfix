@@ -10,6 +10,7 @@ const pageLinks = [
   { label: 'Gallery', to: '/gallery' },
   { label: 'Contact', to: '/contact' }
 ];
+const tailoringLetters = 'tailoring'.split('');
 
 const Navbar = () => {
   const location = useLocation();
@@ -25,13 +26,25 @@ const Navbar = () => {
   return (
     <header className="glass-nav sticky top-0 z-30 border-b">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
-        <Link to="/" className="flex items-center gap-3">
+        <Link to="/" className="group flex items-center gap-3">
           <img
             src={assetPath('assets/playfixlogo.jpeg')}
             alt="Playfix logo"
-            className="h-10 w-10 rounded-xl object-cover shadow-soft transition duration-500 hover:scale-110"
+            className="h-13 w-12 rounded-xl object-cover shadow-soft transition duration-500 hover:scale-110"
           />
-          <span className="font-heading text-2xl text-ink">Playfix</span>
+          <span className="inline-flex w-max flex-col text-ink">
+            <span className="text-[1.8rem] font-bold lowercase leading-none tracking-tight sm:text-[2.05rem]">
+              play fix
+            </span>
+            <span className="mt-[0.7rem] h-px w-full bg-ink/70 transition group-hover:bg-copper" />
+            <span className="w-full pt-1 text-[0.68rem] font-semibold lowercase text-graphite/90 transition group-hover:text-copper">
+              <span className="flex w-full items-center justify-between">
+                {tailoringLetters.map((letter, index) => (
+                  <span key={`${letter}-${index}`}>{letter}</span>
+                ))}
+              </span>
+            </span>
+          </span>
         </Link>
 
         <ul className="hidden items-center gap-6 text-sm font-semibold text-graphite/90 md:flex">
