@@ -7,9 +7,9 @@ export const navItems = [
 
 export const services = [
   {
-    title: 'Bridal Tailoring',
+    title: 'Bridal Stitching',
     description:
-      'Precision stitched bridal outfits with custom trial sessions and finishing support.'
+      'Expertly stitched bridal outfits with personalized trial sessions and detailed finishing support.'
   },
   {
     title: 'Office Wear Shirts & Pants',
@@ -24,10 +24,10 @@ export const services = [
 ];
 
 export const highlights = [
-  '50+ years of tailoring heritage',
-  'Expert pattern cutting and fitting',
-  'Detail-first finishing for every garment',
-  'Personalized style consultation'
+  'Over 50 years of trusted tailoring experience',
+  'Professional pattern cutting and precise fitting',
+  'Careful finishing on every garment',
+  'Personal style guidance for each client'
 ];
 
 export const faqItems = [

@@ -7,8 +7,8 @@ const AboutSection = () => {
       <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-[1.2fr_1fr] md:items-center">
         <SectionTitle
           eyebrow="About Playfix"
-          title="Built On Craftsmanship, Guided By Fit"
-          description="Playfix is a tailoring destination known for trusted workmanship, personalized fitting, and durable finishing that keeps garments elegant and comfortable."
+          title="Rooted in Craftsmanship, Defined by Fit"
+          description="Playfix is a trusted tailoring studio recognized for skilled workmanship, personalized fitting, and lasting finishes that keep garments refined and comfortable."
         />
 
         <div className="rounded-3xl bg-ink p-7 text-cream shadow-soft">

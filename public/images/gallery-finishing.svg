@@ -1,8 +1,0 @@
-<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="900" height="900" fill="#F6EBDD"/>
-  <path d="M230 670L360 220H540L670 670H230Z" fill="#1A2A2F"/>
-  <path d="M450 220V670" stroke="#F4E9DC" stroke-width="14" stroke-dasharray="18 18"/>
-  <circle cx="450" cy="430" r="90" fill="#B06F39"/>
-  <path d="M415 430L442 457L490 402" stroke="#FFF7EE" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="450" y="790" text-anchor="middle" fill="#1A2A2F" font-size="42" font-family="Georgia, serif">FINISHING</text>
-</svg>

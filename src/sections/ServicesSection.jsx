@@ -6,9 +6,9 @@ const ServicesSection = () => {
     <section id="services" className="px-5 py-16 sm:px-8 sm:py-20">
       <div className="mx-auto max-w-6xl">
         <SectionTitle
-          eyebrow="What We Stitch"
-          title="Tailoring Services"
-          description="From bridal outfits to everyday alteration support, every stitch is made to improve comfort, movement, and confidence."
+          eyebrow="What We Create"
+          title="Tailoring Expertise"
+          description="From bridal wear to everyday alterations, each stitch is crafted to enhance comfort, ease of movement, and confidence."
         />
 
         <div className="mt-10 grid gap-5 md:grid-cols-3">

@@ -1,21 +1,21 @@
 const achievements = [
   {
-    title: 'Tailoring Units',
+    title: 'Tailoring Facilities',
     value: '98%',
     description:
-      'Our units use advanced technology and skilled artisans to ensure precision in every stitch.'
+      'Our facilities use advanced technology and skilled artisans to ensure precision in every stitch.'
   },
   {
-    title: 'Dashing Styles',
+    title: 'Refined Styles',
     value: '100%',
     description:
-      'This success rate proves we can create distinctive, fashionable looks by blending classic tailoring with the newest trends.'
+      'This success rate reflects our ability to craft distinctive, fashionable looks by combining classic tailoring with the latest trends.'
   },
   {
-    title: 'Happy Grooms',
+    title: 'Satisfied Grooms',
     value: '100%',
     description:
-      'Every groom is guaranteed to walk down the aisle in a perfectly tailored creation, feeling confident and comfortable on their special day.'
+      'Every groom is assured of walking down the aisle in a perfectly tailored outfit, feeling confident and comfortable on their special day.'
   }
 ];
 

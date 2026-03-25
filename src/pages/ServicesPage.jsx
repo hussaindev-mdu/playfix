@@ -12,8 +12,8 @@ const ServicesPage = () => {
         <div className="mx-auto max-w-6xl">
           <SectionTitle
             eyebrow="Services"
-            title="Tailoring Services for Every Occasion"
-            description="Explore premium stitching, detailed fitting, and reliable finishing designed for style and comfort."
+            title="Tailoring Solutions for Every Occasion"
+            description="Discover premium stitching, precise fitting, and dependable finishing crafted for comfort and style."
           />
         </div>
       </section>
@@ -51,7 +51,7 @@ const ServicesPage = () => {
 
       <section className="px-5 py-16 sm:px-8 sm:py-20">
         <div className="mx-auto max-w-6xl rounded-3xl bg-ink p-8 text-cream shadow-soft">
-          <h3 className="font-heading text-3xl">Why Choose Playfix</h3>
+          <h3 className="font-heading text-3xl">Why Clients Choose Playfix</h3>
           <ul className="mt-5 grid gap-3 text-sm sm:grid-cols-2 sm:text-base">
             {highlights.map((item) => (
               <li key={item}>{item}</li>

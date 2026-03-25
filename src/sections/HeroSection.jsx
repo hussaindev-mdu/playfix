@@ -1,6 +1,17 @@
 import { assetPath } from '../utils/assetPath';
 
-const heroImages = [assetPath('media/playfix-hero-1.jpg'), assetPath('media/playfix-hero-2.jpg')];
+const heroImages = [
+  {
+    src: assetPath('media/tailor-measuring-client.jpg'),
+    alt: 'Tailor measuring a client for a bespoke suit',
+    objectPosition: 'center'
+  },
+  {
+    src: assetPath('assets/yasar_img_two.jpeg'),
+    alt: 'Tailor model portrait',
+    objectPosition: '15% center'
+  }
+];
 
 const HeroSection = () => {
   return (
@@ -13,12 +24,12 @@ const HeroSection = () => {
           <p className="inline-flex rounded-full border border-ink/35 px-4 py-1 text-xs font-semibold uppercase tracking-[0.25em] text-ink">
             Since 1976
           </p>
-          <h1 className="mt-6 font-heading text-4xl leading-tight text-ink sm:text-6xl">
-            Custom Tailoring That Fits Your Story.
+          <h1 className="mt-6 font-heading text-3xl leading-tight text-ink sm:text-6xl">
+            Premium Fabric Selection, Bespoke Tailoring, and Precision Alterations.
           </h1>
           <p className="mt-5 max-w-xl text-sm leading-relaxed text-graphite/80 sm:text-base">
-            Playfix combines heritage craftsmanship with modern design sensibility for bridal wear, custom blouses,
-            and precise alterations.
+            Playfix is a dedicated tailoring and stitching house offering curated fabric sales, made-to-measure
+            craftsmanship, and meticulous alteration services.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -38,16 +49,17 @@ const HeroSection = () => {
         </div>
 
         <div className="grid grid-cols-2 gap-4 md:justify-self-end">
-          {heroImages.map((src, index) => (
+          {heroImages.map((image, index) => (
             <div
-              key={src}
+              key={image.src}
               className="overflow-hidden rounded-[1.5rem] shadow-soft"
               style={{ animationDelay: `${index * 120}ms` }}
             >
               <img
-                src={src}
-                alt="Playfix tailoring showcase"
+                src={image.src}
+                alt={image.alt}
                 className="h-72 w-full animate-float object-cover"
+                style={{ objectPosition: image.objectPosition }}
                 loading="lazy"
               />
             </div>

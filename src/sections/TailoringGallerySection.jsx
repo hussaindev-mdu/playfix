@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import { assetPath } from '../utils/assetPath';
 
 const imageSlides = [
-  { src: assetPath('media/playfix-hero-1.jpg'), alt: 'Playfix tailoring style one' },
-  { src: assetPath('media/playfix-hero-2.jpg'), alt: 'Playfix tailoring style two' },
-  { src: assetPath('media/playfix-img-1.jpg'), alt: 'Playfix tailoring studio image one' },
-  { src: assetPath('media/playfix-img-2.jpg'), alt: 'Playfix tailoring studio image two' }
+  { src: assetPath('media/tailor-measuring-client.jpg'), alt: 'Tailor measuring a client in a workshop' },
+  { src: assetPath('media/bespoke-fitting.jpg'), alt: 'Bespoke fitting in progress for a formal suit' },
+  { src: assetPath('media/tailor-client-workshop.jpg'), alt: 'Tailor assisting a client with garment details' },
+  { src: assetPath('media/tailor-adjusting-suit.jpg'), alt: 'Tailor adjusting a finished suit jacket' }
 ];
 
 const TailoringGallerySection = () => {

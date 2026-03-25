@@ -85,7 +85,7 @@ const ContactPage = () => {
                 <div className="mt-3 flex flex-1 flex-col gap-3">
                   <h3 className="font-semibold text-ink">{location.name}</h3>
                   <p className="text-sm text-graphite/85">
-                    {location.rating} · {location.type}
+                    {location.rating}  {location.type}
                   </p>
                   <p className="text-sm leading-relaxed text-graphite/85">{location.address}</p>
                   {location.phone ? (

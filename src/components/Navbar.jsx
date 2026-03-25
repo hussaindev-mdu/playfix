@@ -33,7 +33,7 @@ const Navbar = () => {
             className="h-13 w-12 rounded-xl object-cover shadow-soft transition duration-500 hover:scale-110"
           />
           <span className="inline-flex w-max flex-col text-ink">
-            <span className="text-[1.8rem] font-bold lowercase leading-none tracking-tight sm:text-[2.05rem]">
+            <span className="text-[1.6rem] font-bold lowercase leading-none tracking-tight sm:text-[2.05rem]">
               play fix
             </span>
             <span className="mt-[0.7rem] h-px w-full bg-ink/70 transition group-hover:bg-copper" />

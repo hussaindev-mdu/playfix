@@ -13,17 +13,17 @@ const AboutPage = () => {
       <section className="px-5 pb-10 pt-16 sm:px-8 sm:pt-20">
         <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-2 md:items-center">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-copper">About Our Story</p>
-            <h1 className="mt-3 font-heading text-4xl text-ink sm:text-5xl">The Thread of Perfection</h1>
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-copper">Our Journey</p>
+            <h1 className="mt-3 font-heading text-4xl text-ink sm:text-5xl">Crafted with Purpose</h1>
             <p className="mt-4 text-sm leading-relaxed text-graphite/80 sm:text-base">
-              Playfix is built on one promise: every garment should feel personally made, confidently worn, and
-              perfectly fitted.
+              Playfix is founded on one commitment: every garment should feel custom-made, be worn with confidence,
+              and deliver a flawless fit.
             </p>
           </div>
           <div className="overflow-hidden rounded-[1.8rem] shadow-soft">
             <img
-              src={assetPath('media/playfix-img-3.jpg')}
-              alt="Tailoring craftsmanship at Playfix"
+              src={assetPath('media/bespoke-suit-dummy.jpg')}
+              alt="Bespoke suit displayed on a tailoring mannequin"
               className="h-80 w-full object-cover"
             />
           </div>
@@ -45,20 +45,20 @@ const AboutPage = () => {
         <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-[1.1fr_1fr] md:items-center">
           <div className="overflow-hidden rounded-[1.8rem] shadow-soft">
             <img
-              src={assetPath('media/playfix-img-1.jpg')}
-              alt="Playfix tailoring studio"
+              src={assetPath('media/tailor-adjusting-suit.jpg')}
+              alt="Tailor refining the fit of a formal jacket"
               className="h-80 w-full object-cover"
             />
           </div>
           <div>
-            <h2 className="font-heading text-3xl text-ink sm:text-4xl">How Playfix Began</h2>
+            <h2 className="font-heading text-3xl text-ink sm:text-4xl">How Playfix Started</h2>
             <p className="mt-4 text-sm leading-relaxed text-graphite/80 sm:text-base">
-              We began as a small neighborhood tailoring shop with a single goal: every customer should walk out
-              feeling their absolute best.
+              We started as a small local tailoring studio with one clear goal: every customer should leave looking
+              and feeling their very best.
             </p>
             <p className="mt-3 text-sm leading-relaxed text-graphite/80 sm:text-base">
-              Over the years, we grew through referrals and repeat clients who trusted our consistency, precision, and
-              finishing quality.
+              Over time, we expanded through referrals and returning clients who valued our consistency, precision,
+              and finishing standards.
             </p>
           </div>
         </div>
@@ -66,14 +66,14 @@ const AboutPage = () => {
 
       <section className="px-5 py-16 sm:px-8 sm:py-20">
         <div className="mx-auto max-w-6xl rounded-[2rem] bg-ink p-8 text-cream shadow-soft sm:p-10">
-          <h2 className="font-heading text-3xl sm:text-4xl">Where Craft Meets Care</h2>
+          <h2 className="font-heading text-3xl sm:text-4xl">Where Craft and Care Converge</h2>
           <p className="mt-4 text-sm leading-relaxed text-cream/90 sm:text-base">
-            “Fix” is not only part of our name, it defines our process. We experiment with fabric, style, and
-            construction techniques to solve the most common problem in clothing: poor fit.
+            “Fix” is more than a part of our name, it represents our method. We refine fabric choices, style details,
+            and construction techniques to address the most common issue in clothing: imperfect fit.
           </p>
           <p className="mt-3 text-sm leading-relaxed text-cream/90 sm:text-base">
-            As we move forward, Playfix continues to preserve its craftsmanship heritage while embracing contemporary
-            design and modern materials.
+            As we evolve, Playfix remains committed to its tailoring heritage while embracing contemporary design and
+            modern materials.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
