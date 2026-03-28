@@ -4,12 +4,12 @@ const heroImages = [
   {
     src: assetPath('assets/mujibmama1.jpeg'),
     alt: 'Mujibmama series image one',
-    objectPosition: 'center'
+    mobileClassName: 'h-auto object-contain sm:object-center'
   },
   {
     src: assetPath('assets/mujibmama2.jpg'),
     alt: 'Mujibmama series image two',
-    objectPosition: 'center'
+    mobileClassName: 'h-auto object-contain sm:object-center'
   }
 ];
 
@@ -48,18 +48,17 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-4 md:justify-self-end">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:justify-self-end">
           {heroImages.map((image, index) => (
             <div
               key={image.src}
-              className="overflow-hidden rounded-[1.5rem] shadow-soft"
+              className="mx-auto w-full max-w-sm overflow-hidden rounded-[1.5rem] bg-cream p-2 shadow-soft sm:max-w-none sm:p-0"
               style={{ animationDelay: `${index * 120}ms` }}
             >
               <img
                 src={image.src}
                 alt={image.alt}
-                className="h-72 w-full animate-float object-cover"
-                style={{ objectPosition: image.objectPosition }}
+                className={`${image.mobileClassName} mx-auto block w-full sm:h-72 sm:animate-float sm:object-cover`}
                 loading="lazy"
               />
             </div>
