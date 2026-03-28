@@ -2,10 +2,22 @@ import { useEffect, useState } from 'react';
 import { assetPath } from '../utils/assetPath';
 
 const imageSlides = [
-  { src: assetPath('media/tailor-measuring-client.jpg'), alt: 'Tailor measuring a client in a workshop' },
-  { src: assetPath('media/bespoke-fitting.jpg'), alt: 'Bespoke fitting in progress for a formal suit' },
-  { src: assetPath('media/tailor-client-workshop.jpg'), alt: 'Tailor assisting a client with garment details' },
-  { src: assetPath('media/tailor-adjusting-suit.jpg'), alt: 'Tailor adjusting a finished suit jacket' }
+  {
+    src: assetPath('assets/mujibmama1.jpeg'),
+    alt: 'Mujibmama series image one'
+  },
+  {
+    src: assetPath('assets/mujibmama2.jpg'),
+    alt: 'Mujibmama series image two'
+  },
+  {
+    src: assetPath('assets/mujibmama3.jpeg'),
+    alt: 'Mujibmama series image three'
+  },
+  {
+    src: assetPath('assets/mujibmama4.jpeg'),
+    alt: 'Mujibmama series image four'
+  }
 ];
 
 const TailoringGallerySection = () => {
@@ -21,24 +33,24 @@ const TailoringGallerySection = () => {
 
   return (
     <section id="gallery" className="px-5 py-16 sm:px-8 sm:py-20">
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto max-w-5xl">
         <div className="max-w-2xl">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-copper">Our Studio Moments</p>
           <h2 className="mt-3 font-heading text-3xl text-ink sm:text-4xl">Tailoring In Motion</h2>
         </div>
 
-        <div className="glass-panel mt-10 overflow-hidden rounded-3xl p-3 sm:p-4">
+        <div className="glass-panel mt-10 mx-auto max-w-4xl overflow-hidden rounded-3xl p-3 sm:p-4">
           <div
             className="flex transition-transform duration-700 ease-out"
             style={{ transform: `translateX(-${activeIndex * 100}%)` }}
           >
             {imageSlides.map((item) => (
-              <article key={item.src} className="relative min-w-full overflow-hidden rounded-2xl">
+              <article key={item.src} className="relative min-w-full overflow-hidden rounded-2xl bg-cream">
                 <img
                   src={item.src}
                   alt={item.alt}
                   loading="lazy"
-                  className="h-80 w-full object-cover sm:h-[440px]"
+                  className="block w-full h-auto"
                 />
                 <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/35 via-transparent to-transparent" />
               </article>

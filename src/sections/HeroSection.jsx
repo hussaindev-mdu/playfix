@@ -2,14 +2,14 @@ import { assetPath } from '../utils/assetPath';
 
 const heroImages = [
   {
-    src: assetPath('media/tailor-measuring-client.jpg'),
-    alt: 'Tailor measuring a client for a bespoke suit',
+    src: assetPath('assets/mujibmama1.jpeg'),
+    alt: 'Mujibmama series image one',
     objectPosition: 'center'
   },
   {
-    src: assetPath('assets/yasar_img_two.jpeg'),
-    alt: 'Tailor model portrait',
-    objectPosition: '15% center'
+    src: assetPath('assets/mujibmama2.jpg'),
+    alt: 'Mujibmama series image two',
+    objectPosition: 'center'
   }
 ];
 

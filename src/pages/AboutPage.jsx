@@ -20,11 +20,12 @@ const AboutPage = () => {
               and deliver a flawless fit.
             </p>
           </div>
-          <div className="overflow-hidden rounded-[1.8rem] shadow-soft">
+          <div className="mx-auto w-full max-w-md overflow-hidden rounded-[1.8rem] shadow-soft">
             <img
-              src={assetPath('media/bespoke-suit-dummy.jpg')}
-              alt="Bespoke suit displayed on a tailoring mannequin"
-              className="h-80 w-full object-cover"
+              src={assetPath('assets/mujibmama3.jpeg')}
+              alt="Mujibmama portrait image three"
+              className="h-64 w-full object-cover sm:h-72"
+              style={{ objectPosition: 'center 8%' }}
             />
           </div>
         </div>
@@ -43,11 +44,12 @@ const AboutPage = () => {
 
       <section className="px-5 py-16 sm:px-8 sm:py-20">
         <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-[1.1fr_1fr] md:items-center">
-          <div className="overflow-hidden rounded-[1.8rem] shadow-soft">
+          <div className="mx-auto w-full max-w-md overflow-hidden rounded-[1.8rem] shadow-soft">
             <img
-              src={assetPath('media/tailor-adjusting-suit.jpg')}
-              alt="Tailor refining the fit of a formal jacket"
-              className="h-80 w-full object-cover"
+              src={assetPath('assets/mujibmama2.jpg')}
+              alt="Mujibmama portrait image two"
+              className="h-64 w-full object-cover sm:h-72"
+              style={{ objectPosition: 'center 22%' }}
             />
           </div>
           <div>
