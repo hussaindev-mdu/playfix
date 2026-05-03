@@ -1,12 +1,14 @@
 import { useEffect, useState } from 'react';
 import { assetPath } from '../utils/assetPath';
 
-const sliderImages = [
-  { src: assetPath('assets/imageOne.webp'), alt: 'Playfix gallery image 1' },
-  { src: assetPath('assets/imageTwo.webp'), alt: 'Playfix gallery image 2' },
-  { src: assetPath('assets/imageThree.gif'), alt: 'Playfix gallery image 3' },
-  { src: assetPath('assets/imageFour.gif'), alt: 'Playfix gallery image 4' },
-  { src: assetPath('assets/imageFive.webp'), alt: 'Playfix gallery image 5' }
+const galleryImages = [
+  { src: assetPath('assets/shopimage1.jpeg'), alt: 'Playfix shop image 1' },
+  { src: assetPath('assets/shopimage2.jpeg'), alt: 'Playfix shop image 2' },
+  { src: assetPath('assets/shopimage3.jpeg'), alt: 'Playfix shop image 3' },
+  { src: assetPath('assets/shopimage4.jpeg'), alt: 'Playfix shop image 4' },
+  { src: assetPath('assets/shopimage5.jpeg'), alt: 'Playfix shop image 5' },
+  { src: assetPath('assets/shopimage7.jpeg'), alt: 'Playfix shop image 7' },
+  { src: assetPath('assets/shopimage8.webp'), alt: 'Playfix shop image 8' }
 ];
 
 const GalleryPage = () => {
@@ -14,8 +16,8 @@ const GalleryPage = () => {
 
   useEffect(() => {
     const intervalId = window.setInterval(() => {
-      setActiveIndex((prev) => (prev + 1) % sliderImages.length);
-    }, 3000);
+      setActiveIndex((prev) => (prev + 1) % galleryImages.length);
+    }, 3200);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -23,7 +25,7 @@ const GalleryPage = () => {
   return (
     <>
       <section className="px-5 pb-8 pt-16 sm:px-8 sm:pt-20">
-        <div className="mx-auto max-w-6xl">
+        <div className="mx-auto max-w-5xl">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-copper">Gallery</p>
           <h1 className="mt-3 font-heading text-4xl text-ink sm:text-5xl">Playfix Media Showcase</h1>
           <p className="mt-4 max-w-3xl text-sm leading-relaxed text-graphite/80 sm:text-base">
@@ -32,33 +34,32 @@ const GalleryPage = () => {
         </div>
       </section>
 
-      <section className="px-5 pb-10 sm:px-8">
-        <div className="glass-panel mx-auto max-w-6xl overflow-hidden rounded-[2rem] p-4 sm:p-6">
-          <div className="relative overflow-hidden rounded-3xl">
+      <section className="px-5 pb-16 sm:px-8">
+        <div className="glass-panel mx-auto max-w-4xl overflow-hidden rounded-3xl p-3 sm:p-4">
+          <article className="relative overflow-hidden rounded-2xl bg-cream">
             <img
-              key={sliderImages[activeIndex].src}
-              src={sliderImages[activeIndex].src}
-              alt={sliderImages[activeIndex].alt}
-              className="h-[420px] w-full animate-rise object-cover sm:h-[520px]"
+              key={galleryImages[activeIndex].src}
+              src={galleryImages[activeIndex].src}
+              alt={galleryImages[activeIndex].alt}
+              loading="lazy"
+              className="block w-full h-auto animate-rise"
             />
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/35 via-transparent to-transparent" />
+          </article>
+        </div>
 
-            <div className="absolute bottom-4 left-4 rounded-full bg-black/55 px-4 py-1 text-xs font-semibold text-white">
-              {activeIndex + 1} / {sliderImages.length}
-            </div>
-          </div>
-          <div className="mt-5 flex justify-center gap-2">
-            {sliderImages.map((item, index) => (
-              <button
-                key={item.src}
-                type="button"
-                onClick={() => setActiveIndex(index)}
-                aria-label={`Go to slide ${index + 1}`}
-                className={`h-2.5 rounded-full transition-all ${
-                  activeIndex === index ? 'w-8 bg-ink' : 'w-2.5 bg-graphite/40'
-                }`}
-              />
-            ))}
-          </div>
+        <div className="mt-5 flex justify-center gap-2">
+          {galleryImages.map((item, index) => (
+            <button
+              key={item.src}
+              type="button"
+              onClick={() => setActiveIndex(index)}
+              aria-label={`Go to slide ${index + 1}`}
+              className={`h-2.5 rounded-full transition-all ${
+                activeIndex === index ? 'w-8 bg-ink' : 'w-2.5 bg-graphite/40'
+              }`}
+            />
+          ))}
         </div>
       </section>
     </>

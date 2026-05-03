@@ -24,7 +24,7 @@ const locations = [
     name: 'Play Fix Tailoring',
     type: 'Clothing store',
     address: '138, South Masi St, (sait pallivasal 1st floor)',
-    phone: '',
+    phone: '099769 65710',
     hours: 'Opens 10:30 am',
     mapsUrl: 'https://www.google.com/maps/search/?api=1&query=138+South+Masi+St+sait+pallivasal+1st+floor'
   },
