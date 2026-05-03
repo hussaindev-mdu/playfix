@@ -11,7 +11,7 @@ const initialValues = {
   message: ''
 };
 
-const services = ['Office Wear Shirts & Pants', 'Alteration', 'General Consultation'];
+const services = ['Groom Stitching', 'Office Wear Shirts & Pants', 'Alteration', 'General Consultation'];
 
 const LeadFormSection = () => {
   const [values, setValues] = useState(initialValues);

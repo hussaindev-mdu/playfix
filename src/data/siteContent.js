@@ -7,9 +7,9 @@ export const navItems = [
 
 export const services = [
   {
-    title: 'Bridal Stitching',
+    title: 'Groom Stitching',
     description:
-      'Expertly stitched bridal outfits with personalized trial sessions and detailed finishing support.'
+      'Expertly stitched groom outfits with personalized trial sessions and detailed finishing support.'
   },
   {
     title: 'Office Wear Shirts & Pants',
