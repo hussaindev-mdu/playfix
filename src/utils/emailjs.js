@@ -19,7 +19,7 @@ export const sendLeadEmail = async (lead) => {
     serviceId,
     templateId,
     {
-      to_email: 'hussaindev07@gmail.com',
+      to_email: lead.email,
       customer_name: lead.name,
       customer_email: lead.email,
       customer_phone: lead.phone,
